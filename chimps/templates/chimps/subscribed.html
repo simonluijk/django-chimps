@@ -1,0 +1,13 @@
+{% extends "site_base.html" %}
+
+{% load i18n %}
+
+{% block head_title %}{% trans "Subscribed to mailing list" %}{% endblock %}
+{% block head_description %}{% trans "Subscribed to mailing list." %}{% endblock %}
+{% block mailchimp_form %}{% endblock %}
+
+
+{% block body %}
+    <h1>{% trans "Subscribed to mailing list" %}</h1>
+    <p>You have successfully subscribed to our mailing list.</p>
+{% endblock %}

@@ -1,0 +1,20 @@
+{% extends "site_base.html" %}
+
+{% load i18n %}
+{% load crispy_forms_tags %}
+
+{% block head_title %}{% trans "Subscribe to mailing list" %}{% endblock %}
+{% block head_description %}{% trans "Subscribe to mailing list" %}{% endblock %}
+{% block mailchimp_form %}{% endblock %}
+
+
+{% block body %}
+    <h1>{% trans "Subscribe to mailing list" %}</h1>
+    <form action="" method="POST">
+        {% csrf_token %}
+        {{ form|crispy }}
+        <div class="form-actions">
+            <button type="submit" class="btn btn-primary">{% trans "Subscribe" %}</button>
+        </div>
+    </form>
+{% endblock %}
