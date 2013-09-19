@@ -8,12 +8,12 @@ python:
 
 env:
   - DJANGO="https://github.com/django/django/zipball/master"
-  - DJANGO="django==1.5 --use-mirrors"
-  - DJANGO="django==1.4 --use-mirrors"
+  - DJANGO="django==1.5.4 --use-mirrors"
+  - DJANGO="django==1.4.8 --use-mirrors"
 
 install:
   - pip install $DJANGO
-  - pip install mock
+  - pip install mock mailsnake --use-mirrors
   - export PYTHONPATH=.
 
 script:
@@ -22,6 +22,6 @@ script:
 matrix:
   exclude:
     - python: "3.2"
-      env: DJANGO="django==1.4 --use-mirrors"
+      env: DJANGO="django==1.4.8 --use-mirrors"
     - python: "3.3"
-      env: DJANGO="django==1.4 --use-mirrors"
+      env: DJANGO="django==1.4.8 --use-mirrors"
