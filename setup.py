@@ -61,6 +61,7 @@ setup(
     author_email='simon@simonluijk.com',  # SEE NOTE BELOW (*)
     packages=get_packages('chimps'),
     package_data=get_package_data('chimps'),
+    test_suite='chimps.runtests.runtests.main',
     install_requires=['mailsnake', ],
     classifiers=[
         'Development Status :: 4 - Beta',
