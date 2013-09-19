@@ -2,6 +2,8 @@
 
 **Allow users to subscribe to MailChimp email lists.**
 
+[![build-status-image]][travis]
+
 # Overview
 
 Django-Chimps provides forms and views to allow users to subscribe to MailChimp emailing lists.
@@ -45,3 +47,6 @@ If you which to have a form on each page, add this to your base template.
     {% endblock %}
 
 That's it, we're done!
+
+[build-status-image]: https://secure.travis-ci.org/simonluijk/django-chimps.png?branch=master
+[travis]: http://travis-ci.org/simonluijk/django-chimps?branch=master
