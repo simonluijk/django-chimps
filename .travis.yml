@@ -13,7 +13,7 @@ env:
 
 install:
   - pip install $DJANGO
-  - pip install mockup
+  - pip install mock
   - export PYTHONPATH=.
 
 script:
