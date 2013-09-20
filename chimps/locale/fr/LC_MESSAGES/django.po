@@ -24,7 +24,7 @@ msgstr "Nom"
 
 #: views.py:11
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #: templates/chimps/form.html:8 templates/chimps/subscribe.html:17
 msgid "Subscribe"
