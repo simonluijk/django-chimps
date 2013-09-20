@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: django-chimps\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-19 09:48+0200\n"
+"POT-Creation-Date: 2013-09-20 11:00+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Simon Luijk <simon@simonluijk.com>\n"
 "Language-Team: French <simon@simonluijk.com>\n"
@@ -17,6 +17,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: views.py:10
+msgid "Name"
+msgstr "Nom"
+
+#: views.py:11
+msgid "Email"
+msgstr ""
 
 #: templates/chimps/form.html:8 templates/chimps/subscribe.html:17
 msgid "Subscribe"

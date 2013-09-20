@@ -2,12 +2,13 @@ from django import forms
 from django.core.urlresolvers import reverse
 from django.conf import settings
 from django.views.generic import FormView
+from django.utils.translation import ugettext as _
 from mailsnake import MailSnake
 
 
 class SubscriptionForm(forms.Form):
-    name = forms.CharField(max_length=100)
-    email = forms.EmailField()
+    name = forms.CharField(_('Name'), max_length=100)
+    email = forms.EmailField(_('Email'))
 
 
 class SubscribeView(FormView):
