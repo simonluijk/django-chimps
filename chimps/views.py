@@ -7,8 +7,8 @@ from mailsnake import MailSnake
 
 
 class SubscriptionForm(forms.Form):
-    name = forms.CharField(_('Name'), max_length=100)
-    email = forms.EmailField(_('Email'))
+    name = forms.CharField(label=_('Name'), max_length=100)
+    email = forms.EmailField(label=_('Email'))
 
 
 class SubscribeView(FormView):
