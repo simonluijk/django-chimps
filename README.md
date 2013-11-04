@@ -10,8 +10,8 @@ Django-Chimps provides forms and views to allow users to subscribe to MailChimp 
 
 # Requirements
 
-* Python
-* Django
+* Python (2.6, 2.7, 3.3)
+* Django (1.4, 1.5, 1.6)
 * mailsnake (1.6.2)
 
 # Installation
