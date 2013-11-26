@@ -38,7 +38,7 @@ Include `chimps.urls` in your urlpatterns.
     url(r'^chimps/', include('chimps.urls')),
 
 
-If you which to have a form on each page, add this to your base template.
+If you wish to have a form on each page, add this to your base template.
 
     {% load chimp_tags %}
 
